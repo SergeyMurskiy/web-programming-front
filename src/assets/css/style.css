@@ -1,0 +1,40 @@
+h4, h3, h5 {
+     color: #0E0E0E;
+}
+
+.film-card {
+    background-color: #f6f9fc;
+    margin: 1px;
+}
+.content-container {
+    width: 1100px;
+    min-height: 100vh;
+    height: auto;
+    margin: 0 auto;
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    color: #0E0E0E;
+}
+
+.notification {
+    position: fixed;
+    top: 80px;
+    right: 0px;
+    width: 500px;
+    height: 55px;
+}
+
+.notification-enter-active {
+    transition: all 1s ease;
+}
+
+.notification-leave-active {
+    transition: all .8s cubic-bezier(1.0, 0.5, 0.8, 1.0);
+}
+
+.notification-enter, .notification-leave-to {
+    transform: translateX(1500px);
+    opacity: 0;
+}
+
