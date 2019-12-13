@@ -1,4 +1,4 @@
-# frontendtomovie
+# wep-programming-frontend
 
 ## Project setup
 ```
